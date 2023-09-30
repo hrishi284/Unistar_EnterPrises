@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script> 
+        $(function(){
+            $("#header").load("navbar.html"); 
+            $("#footer").load("footer.html"); 
+        });
+    </script>
+    <style>
+        /* Adjust the image and text layout for mobile */
+        @media (max-width: 767px) {
+            body {
+                padding: 0;
+            }
+            img {
+                width: 100%;
+                height: auto;
+            }
+            .content-container {
+                position: relative;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="header"></div>
+<div class="content-container">
+    <div style="background-color: rgba(241, 241, 241, 0.865); color: black; padding: 20px;">
+        <p style="margin: 5%; font-weight: bold; font-size: xx-large; text-align: center; color: #000000;">About Us</p>
+        <p style="margin: 5%; color: #000000;">
+            Established in the year 1983, Unistar Enterprises is an illustrious and well-known association engrossed in the business of trading and supplying a supreme quality collection of Electronic Equipments, some of our offered products include Resistor and Capacitors, Leaded Resistors, Sensor Product, Trimpot and Helipot, Electrical Capacitors, Bridge Rectifier, Led Display, Solder Wire and Solder Gun, Electrical Fuses, Power Relays, Electronic Buzzer, Inductor Coil, IC Socket and many more. These offered products are widely acknowledged for their precise dimensions and accurate finish. Offered products are designed by using an utmost quality assured material and advanced machineries at the premises of our suppliers as per the customers demand and specifications.
+
+ 
+
+            We are proudly indulged in bringing forward an unmatched quality of our offered products, since we are backed by our superbly intelligent professionals and engineers. Moreover, to assure the quality of our offered products, we have maintained for ourselves an advanced trading and supplying unit in order to fulfill each and every necessity of our valuable clients. Also to carry out all events with ease, we have hired a skilled labor force at our end. Headed by their particular managers and professionals, our labor force along with their managers has assisted us in achieving a huge patrons support due to our proficient fulfillment of their needs.
+            
+             
+            
+            Under the massive support and strict guidance of our esteemed mentor Mr. Suresh Chandra Gupta, we have come up as a dynamic team and till date have maintained ourselves as an eminent and leading name of the market. He has always trusted upon being clear in all commercial deals that have directed us towards newer heights of success.
+        </p>
+        <img src="images/backabout.jpg" style="width: 50%; background-size: cover;" alt="About Us">
+
+    </div>
+</div>    
+<div id="footer"></div>
+</body>  
+</html>
